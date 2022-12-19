@@ -92,12 +92,12 @@
     margin-top: 1rem;
 }
 
-.commentForm footer{
+.commentForm >footer{
     visibility: hidden;
     max-height: 0;
 }
 
-.commentForm:focus-within footer{
+.commentForm:focus-within >footer{
     visibility: visible;
     max-height: none;
 }
